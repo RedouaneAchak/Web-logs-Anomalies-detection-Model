@@ -112,7 +112,7 @@ All features are then standardized using `StandardScaler` (zero mean, unit varia
 ├── scoring_service.py          FastAPI service for live scoring (ELK integration)
 ├── anomaly_model.pkl           Trained Isolation Forest model
 ├── scaler.pkl                  Fitted StandardScaler
-├── anomaly_results.csv         All scored IP/hour windows
+├── anomaly_results.zip         All scored IP/hour windows ( compressed cuz the size is bigger than 25mo)
 ├── flagged_anomalies.csv       Only the flagged anomalous windows
 └── NASA_access_log_Jul95.gz    Raw dataset (downloaded automatically)
 ```
