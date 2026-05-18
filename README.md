@@ -114,8 +114,7 @@ All features are then standardized using `StandardScaler` (zero mean, unit varia
 ├── scaler.pkl                  Fitted StandardScaler
 ├── anomaly_results.csv         All scored IP/hour windows
 ├── flagged_anomalies.csv       Only the flagged anomalous windows
-├── NASA_access_log_Jul95.gz    Raw dataset (downloaded automatically)
-└── NASA_access_log_Jul95.txt   Decompressed log file
+└── NASA_access_log_Jul95.gz    Raw dataset (downloaded automatically)
 ```
 
 ### `nasa_anomaly_detection.py`
